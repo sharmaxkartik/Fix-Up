@@ -1,5 +1,5 @@
 
-# FixUp - E-Waste Reduction Through Smarter Repairs
+# FixUp - Don't Ditch it! FixUp
 
 **FixUp** is a web platform designed to help you repair, reuse, and reduce e-waste by making gadget repairs easy, affordable, and sustainable. In a world where technology is advancing rapidly, we often discard our gadgets for new ones when a simple repair could extend their life. FixUp connects you to trusted repair shops, offers live tracking, and helps you make informed repair decisions.
 
