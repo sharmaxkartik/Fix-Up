@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Search, } from "lucide-react"
+import AnimatedSearchBar from "@/components/AnimatedSearchBar"
 
 export default function Hero() {
   return (
@@ -14,11 +15,12 @@ export default function Hero() {
         <p className="mx-auto max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
         Why throw away when you can fix it the smart way? With AI-powered diagnostics, real-time repair cost estimates, and access to skilled technicians, FixUp ensures your devices stay in top shape—convenient, cost-effective, and eco-friendly!        </p>
       </div>
-      <div className="flex gap-4">
-        <Button size="lg">
+      <div className="flex gap-0">
+      <AnimatedSearchBar />
+        {/* <Button size="lg">
           Search Near By Stores...
           <Search className="ml-2 h-4 w-4" />
-        </Button>
+        </Button> */}
         {/* <Button variant="outline" size="lg">
           Schedule a Demo
         </Button> */}

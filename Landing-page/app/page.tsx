@@ -3,6 +3,7 @@ import Hero from "@/components/hero"
 import Features from "@/components/features"
 import CTA from "@/components/cta"
 import Footer from "@/components/footer"
+// import AnimatedSearchBar from "@/components/AnimatedSearchBar"
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <div className="relative z-10">
         <Navbar />
         <Hero />
+        {/* <AnimatedSearchBar /> */}
         <Features />
         <CTA />
         <Footer />
