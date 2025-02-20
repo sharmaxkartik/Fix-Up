@@ -60,7 +60,7 @@ const AnimatedSearchBar = () => {
           </button>
         )}
       </motion.div>
-      {/* <AnimatePresence>
+      <AnimatePresence>
         {searchResults.length > 0 && (
           <motion.ul
             initial={{ opacity: 0, y: -10 }}
@@ -76,7 +76,7 @@ const AnimatedSearchBar = () => {
             ))}
           </motion.ul>
         )}
-      </AnimatePresence> */}
+      </AnimatePresence>
     </div>
   )
 }

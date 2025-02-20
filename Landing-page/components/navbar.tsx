@@ -27,10 +27,12 @@ export default function Navbar() {
               <span className="sr-only">GitHub</span>
             </Button>
           </Link> */}
-          <Button variant="ghost" size="sm">
+          {/* <Button variant="ghost" size="sm">
             Login
-          </Button>
-          <Button size="sm">Sign Up</Button>
+          </Button> */}
+          <Link href="/register">
+            <Button size="sm">Register</Button>
+          </Link>
         </div>
       </div>
     </header>
