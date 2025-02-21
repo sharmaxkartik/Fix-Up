@@ -38,7 +38,7 @@ const TrackingCard: React.FC<TrackingCardProps> = ({
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="relative z-50 w-full max-w-2xl p-6 bg-white rounded-lg shadow-md border border-gray-200 text-gray-800"
+      className="relative z-50 w-full max-w-2xl p-6 bg-white rounded-lg shadow-md border border-border/40 text-gray-800"
     >
       {/* Header Section */}
       <div className="mb-4">
