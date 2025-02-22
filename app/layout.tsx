@@ -9,7 +9,10 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Fix-Up : Don't Ditch It, Fix It",
   description: "Fast, reliable, and affordable gadget repairs—because fixing is better than replacing.",
-}
+  icons: {
+    icon: "/icon.png",
+},
+};
 
 export default function RootLayout({
   children,
