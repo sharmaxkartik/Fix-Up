@@ -16,7 +16,7 @@ export default function Navbar() {
           <Link href="/orders" className="transition-colors hover:text-primary">
             Your Repair
           </Link>
-          <Link href="/about" className="transition-colors hover:text-primary">
+          <Link href="/fixie" className="transition-colors hover:text-primary">
             Fixie
           </Link>
         </nav>
